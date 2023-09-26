@@ -346,7 +346,7 @@ export default {
         <div v-for="(item, index) in items" :key="index" class="blog-card">
             <div class="inner-part">
                 <div class="img">
-                    <img class="img-1" :src="'./src/assets/img/' + item.image" />
+                    <img class="img-1" :src="'https://cdn.vku-udn.edu.vn/daotao/sinhvien/' + item.image" :alt="'ảnh của ' + item.name" />
                 </div>
                 <div class="main-content main-content-1">
                     <span>{{ item.date }}</span>
