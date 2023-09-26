@@ -42,7 +42,7 @@ export default {
                     phone: '0335911575',
                     email: 'tienntt.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT050.jpg'
+                    image: '21IT050.jpg'
                 },
                 {
                     id: '21IT067',
@@ -52,7 +52,7 @@ export default {
                     phone: '0934772003',
                     email: 'dungcq.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT067.jpg'
+                    image: '21IT067.jpg'
                 },
                 {
                     id: '21IT080',
@@ -63,7 +63,7 @@ export default {
                     email: 'huongdtl.21it@vku.udn.vn',
 
                     description: '',
-                    image: '/assets/img/21IT080.jpg'
+                    image: '21IT080.jpg'
                 },
                 {
                     id: '21IT090',
@@ -73,7 +73,7 @@ export default {
                     phone: '0704942625',
                     email: 'lyltn.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT090.jpg'
+                    image: '21IT090.jpg'
                 },
                 {
                     id: '21IT107',
@@ -84,7 +84,7 @@ export default {
                     phone: '0946814775',
                     email: 'thanhdt.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT107.jpg'
+                    image: '21IT107.jpg'
                 },
                 {
                     id: '21IT169',
@@ -94,7 +94,7 @@ export default {
                     phone: '0989943923',
                     email: 'quynhvn.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT169.jpg'
+                    image: '21IT169.jpg'
                 },
                 {
                     id: '21IT242',
@@ -104,7 +104,7 @@ export default {
                     phone: '0396798864',
                     email: 'tintc.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT242.jpg'
+                    image: '21IT242.jpg'
                 },
                 {
                     id: '21IT243',
@@ -114,7 +114,7 @@ export default {
                     phone: '0978327458',
                     email: 'tinhpc.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT243.jpg'
+                    image: '21IT243.jpg'
                 },
                 {
                     id: '21IT303',
@@ -125,7 +125,7 @@ export default {
 
                     email: 'quangt.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT303.jpg'
+                    image: '21IT303.jpg'
                 },
                 {
                     id: '21IT643',
@@ -136,7 +136,7 @@ export default {
 
                     email: 'quangvm.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT643.jpg'
+                    image: '21IT643.jpg'
                 },
                 {
                     id: '21IT307',
@@ -147,7 +147,7 @@ export default {
 
                     email: 'sinhnv.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT307.jpg'
+                    image: '21IT307.jpg'
                 },
                 {
                     id: '21IT333',
@@ -158,7 +158,7 @@ export default {
 
                     email: 'datvt.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT333.jpg'
+                    image: '21IT333.jpg'
                 },
                 {
                     id: '21IT303',
@@ -169,7 +169,7 @@ export default {
 
                     email: 'doantv.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT303.jpg'
+                    image: '21IT303.jpg'
                 },
                 {
                     id: '21IT375',
@@ -179,7 +179,7 @@ export default {
                     phone: '0971213792',
                     email: 'sonqh.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT375.jpg'
+                    image: '21IT375.jpg'
                 },
                 {
                     id: '21IT652',
@@ -190,7 +190,7 @@ export default {
 
                     email: 'thangtq.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT652.jpg'
+                    image: '21IT652.jpg'
                 }
             ], // Define your items data here
             items2: [
@@ -202,7 +202,7 @@ export default {
                     phone: '0932583717',
                     email: 'trungnv.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT658.jpg'
+                    image: '21IT658.jpg'
                 },
                 {
                     id: '21IT400',
@@ -212,7 +212,7 @@ export default {
                     phone: '0583152783',
                     email: 'dunglm.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT400.jpg'
+                    image: '21IT400.jpg'
                 },
                 {
                     id: '21IT424',
@@ -220,7 +220,7 @@ export default {
                     date: '2003-08-30',
                     address: 'Ha Noi',
                     phone: '0931368443',
-                    email: '/assets/img/minhtc.21it@vku.udn.vn',
+                    email: 'minhtc.21it@vku.udn.vn',
 
                     description: '',
                     image: '21IT424.jpg'
@@ -233,7 +233,7 @@ export default {
                     phone: '0382887406',
                     email: 'nhatdnm.21it@vku.udn.vn	',
                     description: '',
-                    image: '/assets/img/21IT434.jpg'
+                    image: '21IT434.jpg'
                 },
                 {
                     id: '21IT655',
@@ -244,7 +244,7 @@ export default {
                     phone: '0382802406',
                     email: 'tientc.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT655.jpg'
+                    image: '21IT655.jpg'
                 },
                 {
                     id: '21IT458',
@@ -254,7 +254,7 @@ export default {
                     phone: '0354723814',
                     email: 'tungtt2.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT458.jpg'
+                    image: '21IT458.jpg'
                 },
                 {
                     id: '21IT662',
@@ -264,7 +264,7 @@ export default {
                     phone: '0372695578',
                     email: 'viennv.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT662.jpg'
+                    image: '21IT662.jpg'
                 },
                 {
                     id: '21IT469',
@@ -274,7 +274,7 @@ export default {
                     phone: '0865049035',
                     email: 'congnt.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT469.jpg'
+                    image: '21IT469.jpg'
                 },
                 {
                     id: '21IT476',
@@ -285,7 +285,7 @@ export default {
 
                     email: 'hailv.21it@vku.udn.vn	',
                     description: '',
-                    image: '/assets/img/21IT476.jpg'
+                    image: '21IT476.jpg'
                 },
                 {
                     id: '21IT607',
@@ -296,7 +296,7 @@ export default {
 
                     email: 'hanhlv.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT607.jpg'
+                    image: '21IT607.jpg'
                 },
                 {
                     id: '21IT507',
@@ -307,7 +307,7 @@ export default {
 
                     email: 'phuongdv.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT507.jpg'
+                    image: '21IT507.jpg'
                 },
                 {
                     id: '21IT511	',
@@ -318,7 +318,7 @@ export default {
 
                     email: 'sypx.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT511	.jpg'
+                    image: '21IT511	.jpg'
                 },
                 {
                     id: '21IT556',
@@ -329,7 +329,7 @@ export default {
 
                     email: 'kientx.21it@vku.udn.vn	',
                     description: '',
-                    image: '/assets/img/21IT556.jpg'
+                    image: '21IT556.jpg'
                 },
                 {
                     id: '21IT566',
@@ -339,7 +339,7 @@ export default {
                     phone: '0333813580',
                     email: 'nganntk.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT566.jpg'
+                    image: '21IT566.jpg'
                 },
                 {
                     id: '21IT581',
@@ -350,7 +350,7 @@ export default {
 
                     email: 'taitt.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT581.jpg'
+                    image: '21IT581.jpg'
                 },
                 {
                     id: '21IT667',
@@ -360,7 +360,7 @@ export default {
                     phone: '0398069880',
                     email: 'thientdv.21it@vku.udn.vn',
                     description: '',
-                    image: '/assets/img/21IT667.jpg'
+                    image: '21IT667.jpg'
                 }
             ], // Define your items data here
             activeIndex: null,
@@ -436,14 +436,14 @@ export default {
         <div class="main-people">
             <div class="people">
                 <div v-for="(item, index) in items" class="imgBx" :style="{ '--i': index + 1 }" :class="{ active: isActive(index) }" @click="handleClick(index)" :data-id="'content' + (index + 1)" :key="index">
-                    <img :src="item.image" :alt="'ảnh của ' + item.name" />
+                    <img :src="'https://cdn.vku-udn.edu.vn/daotao/sinhvien/' + item.image" :alt="'ảnh của ' + item.name" />
                 </div>
             </div>
             <div class="content">
                 <div v-for="(item, index) in items" class="contentBx" :id="'content' + (index + 1)" :class="{ active: isActive(index) }" :key="index">
                     <div class="card">
                         <div class="imgBx" @click="handleClick(index)">
-                            <img :src="item.image" :alt="'ảnh của ' + item.name" />
+                            <img :src="'https://cdn.vku-udn.edu.vn/daotao/sinhvien/' + item.image" :alt="'ảnh của ' + item.name" />
                         </div>
                         <div class="textBx">
                             <h2>
@@ -475,14 +475,14 @@ export default {
         <div class="main-people">
             <div class="people">
                 <div v-for="(item, index) in items2" class="imgBx" :style="{ '--i': index + 1 }" :class="{ active: isActive2(index) }" @click="handleClick2(index)" :data-id="'content' + (index + 1)" :key="index">
-                    <img :src="item.image" :alt="'ảnh của ' + item.name" />
+                    <img :src="'https://cdn.vku-udn.edu.vn/daotao/sinhvien/' + item.image" :alt="'ảnh của ' + item.name" />
                 </div>
             </div>
             <div class="content">
                 <div v-for="(item, index) in items2" class="contentBx" :id="'content' + (index + 1)" :class="{ active: isActive2(index) }" :key="index">
                     <div class="card">
                         <div class="imgBx" @click="handleClick2(index)">
-                            <img :src="item.image" :alt="'ảnh của ' + item.name" />
+                            <img :src="'https://cdn.vku-udn.edu.vn/daotao/sinhvien/' + item.image" :alt="'ảnh của ' + item.name" />
                         </div>
                         <div class="textBx">
                             <h2>
