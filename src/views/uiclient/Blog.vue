@@ -492,15 +492,16 @@ section {
 
 @media screen and (max-width: 542px) {
     .inner-part {
-        height: 250px;
+        height: 200px;
     }
     .inner-part .img {
         height: 150px;
-        width: 150px;
+        width: 120px;
+        object-fit: cover;
     }
 
     .blog-card {
-        height: 250px;
+        height: 200px;
     }
 
     .main-content {
@@ -528,11 +529,6 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-    .inner-part .img {
-        height: 200px;
-        width: 200px;
-    }
-
     .main-content {
         padding: 0 10px 0 25px;
         transition: 0.6s;
@@ -540,6 +536,7 @@ section {
 
     .main-content .text {
         margin-bottom: 5px;
+        font-size: 15px;
     }
 
     .main-content span {
@@ -549,19 +546,26 @@ section {
     .main-content .title {
         margin-bottom: 5px;
     }
+    .inner-part .img {
+        width: 170px;
+        height: 150px;
+        object-fit: cover;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .inner-part .img {
+        width: 200;
         height: 200px;
-        width: 200px;
+        object-fit: cover;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .inner-part .img {
-        height: 200px;
-        width: 200px;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
     }
 }
 </style>
