@@ -521,7 +521,7 @@ section {
     min-height: 100vh;
     height: 100%;
     width: 100%;
-    background: url(./src/assets/background.jpg);
+    background: url(@/assets/background.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
