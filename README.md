@@ -1,21 +1,29 @@
-# Vue 3 + Vite
+This template should help get you started developing with Vue 3 in Vite.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Customize configuration
 
-While this project uses Vue.js, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Deploy Your Own
+## Project Setup
 
-Deploy your own Vite project with Vercel.
+```sh
+npm install
+```
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vite&template=vite)
+### Compile and Hot-Reload for Development
 
-_Live Example: https://vite-vue-template.vercel.app_
+```sh
+npm run dev
+```
 
-### Deploying From Your Terminal
+### Compile and Minify for Production
 
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+```sh
+npm run build
+```
 
-```shell
-$ vercel
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
 ```
