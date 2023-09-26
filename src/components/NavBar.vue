@@ -42,6 +42,7 @@ export default {
             <li><router-link :to="{ name: 'product' }">Product</router-link></li>
             <li><router-link :to="{ name: 'blog' }">Blog</router-link></li>
             <li><router-link :to="{ name: 'contact' }">Contact</router-link></li>
+            <li><router-link :to="{ name: 'dashboard' }">ADMIN</router-link></li>
         </ul>
         <div id="menu-icon-client">
             <box-icon id="tien" :name="isMenuOpen ? 'x' : 'menu'" @click="toggleMenu" :class="{ 'bx-x ': isMenuOpen }"></box-icon>
