@@ -28,7 +28,7 @@ const onUpload = () => {
                 <h5>Thông tin cá nhân</h5>
                 <div class="field">
                     <label for="uuid">Mã sinh viên</label>
-                    <InputText id="uuid" type="text"  value="" />
+                    <InputText id="uuid" type="text" value="" />
                 </div>
                 <div class="field">
                     <label for="name">Tên</label>

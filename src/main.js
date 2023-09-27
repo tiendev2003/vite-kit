@@ -99,11 +99,13 @@ import TreeSelect from 'primevue/treeselect';
 import TreeTable from 'primevue/treetable';
 import TriStateCheckbox from 'primevue/tristatecheckbox';
 import VirtualScroller from 'primevue/virtualscroller';
+import ToastPlugin from 'vue-toast-notification';
+import 'vue-toast-notification/dist/theme-sugar.css';
 
 import BlockViewer from '@/components/BlockViewer.vue';
 
 import '@/assets/styles.scss';
-
+import store from '@/store/store';
 const app = createApp(App);
 
 app.use(router);
@@ -111,7 +113,8 @@ app.use(PrimeVue, { ripple: true });
 app.use(ToastService);
 app.use(DialogService);
 app.use(ConfirmationService);
-
+app.use(store);
+app.use(ToastPlugin);
 app.directive('tooltip', Tooltip);
 app.directive('badge', BadgeDirective);
 app.directive('ripple', Ripple);

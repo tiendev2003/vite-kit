@@ -42,8 +42,17 @@ export default {
             <li><router-link :to="{ name: 'product' }">Product</router-link></li>
             <li><router-link :to="{ name: 'blog' }">Blog</router-link></li>
             <li><router-link :to="{ name: 'contact' }">Contact</router-link></li>
-            <li><router-link :to="{ name: 'dashboard' }">ADMIN</router-link></li>
+            <div class="login-button active">
+                <router-link :to="{ name: 'login' }">
+                    <button class="top-btn">Login</button>
+                </router-link>
+            </div>
         </ul>
+        <div class="login-button">
+            <router-link :to="{ name: 'login' }">
+                <button class="top-btn">Login</button>
+            </router-link>
+        </div>
         <div id="menu-icon-client">
             <box-icon id="tien" :name="isMenuOpen ? 'x' : 'menu'" @click="toggleMenu" :class="{ 'bx-x ': isMenuOpen }"></box-icon>
         </div>
@@ -151,6 +160,20 @@ export default {
     transition: ease 0.5s;
     margin-left: 10px;
 }
+.login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-button.active {
+    display: none;
+}
+
+.login-button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
 .top-btn:hover {
     transform: scale(1.1);
     background: var(--main-color);
@@ -158,6 +181,17 @@ export default {
     color: var(--bg-color);
 }
 @media (max-width: 970px) {
+    .login-button.active {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .login-button {
+        display: none;
+    }
+    .top-btn:hover {
+        background: #0a7ecc;
+    }
     #menu-icon-client {
         display: block;
     }
@@ -171,7 +205,7 @@ export default {
         text-align: left;
         transition: all 0.4s;
     }
-    .navlist-client a {
+    .navlist-client li a {
         display: block;
         padding: 1.2rem;
         margin: 0.5rem;

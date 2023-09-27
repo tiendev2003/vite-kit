@@ -1,12 +1,21 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import AppLayout from '@/layout/AppLayout.vue';
 import ClientViewer from '@/components/ClientViewer.vue';
+import store from '@/store/store';
+
 const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
             path: '/admin/',
             component: AppLayout,
+            beforeEnter: (to, from, next) => {
+                if (store.state.user) {
+                    next();
+                } else {
+                    next('/login');
+                }
+            },
             children: [
                 {
                     path: '/admin/',
@@ -88,6 +97,12 @@ const router = createRouter({
                     component: () => import('@/views/uiclient/Blog.vue')
                 }
             ]
+        },
+
+        {
+            path: '/login',
+            name: 'login',
+            component: () => import('@/views/Login.vue')
         }
     ],
     scrollBehavior(to, from, savedPosition) {
