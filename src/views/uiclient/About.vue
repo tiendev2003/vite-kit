@@ -3,7 +3,7 @@ export default {};
 </script>
 
 <template>
-    <section>
+    <section class="about-section">
         <div class="header-about">
             <h1>About Us</h1>
             <p>We're family from VKU University at Da Nang city</p>
@@ -21,6 +21,9 @@ export default {};
 </template>
 
 <style lang="css" scoped>
+.about-section {
+    background: url(@/assets/background.jpg);
+}
 .header-about {
     display: flex;
     flex-direction: column;
