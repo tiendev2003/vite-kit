@@ -1,6 +1,6 @@
 <script>
 import 'boxicons';
-
+import { mapState } from 'vuex';
 export default {
     data() {
         return {
@@ -27,6 +27,12 @@ export default {
                 this.isSticky = false;
             }
         }
+    },
+    computed: {
+        ...mapState(['user'])
+    },
+    watch: {
+        ...mapState(['user'])
     }
 };
 </script>
@@ -43,14 +49,20 @@ export default {
             <li><router-link :to="{ name: 'blog' }">Blog</router-link></li>
             <li><router-link :to="{ name: 'contact' }">Contact</router-link></li>
             <div class="login-button active">
-                <router-link :to="{ name: 'login' }">
+                <router-link :to="{ name: 'login' }" v-if="!user">
                     <button class="top-btn">Login</button>
+                </router-link>
+                <router-link v-else :to="{ name: 'dashboard' }">
+                    <button class="top-btn">Admin</button>
                 </router-link>
             </div>
         </ul>
         <div class="login-button">
-            <router-link :to="{ name: 'login' }">
+            <router-link :to="{ name: 'login' }" v-if="!user">
                 <button class="top-btn">Login</button>
+            </router-link>
+            <router-link v-else :to="{ name: 'dashboard' }">
+                <button class="top-btn">Admin</button>
             </router-link>
         </div>
         <div id="menu-icon-client">

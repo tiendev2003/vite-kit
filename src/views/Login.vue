@@ -181,7 +181,8 @@ export default {
             }
         },
         async onGoogleClick() {
-            window.open(`https://api-kit.onrender.com/api/v1/auth/google/callback`, '_self');
+            console.log(123)
+            window.open(`http://localhost:5000/api/v1/auth/google/callback`, '_self');
             // await axios({
             //     method: 'get',
             //     url: 'https://api-kit.onrender.com/api/v1/auth/google/callback'
