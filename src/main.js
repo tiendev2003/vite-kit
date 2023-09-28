@@ -106,8 +106,17 @@ import BlockViewer from '@/components/BlockViewer.vue';
 
 import '@/assets/styles.scss';
 import store from '@/store/store';
+import vue3GoogleLogin from 'vue3-google-login';
+import GoogleSignInPlugin from 'vue3-google-signin';
 const app = createApp(App);
 
+const CLIENT_ID = '291374165006-nro2dg04dal437bp84p1ub9af6586j0d.apps.googleusercontent.com';
+app.use(GoogleSignInPlugin, {
+    clientId: CLIENT_ID
+});
+app.use(vue3GoogleLogin, {
+    clientId: CLIENT_ID
+});
 app.use(router);
 app.use(PrimeVue, { ripple: true });
 app.use(ToastService);

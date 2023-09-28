@@ -103,6 +103,11 @@ const router = createRouter({
             path: '/login',
             name: 'login',
             component: () => import('@/views/Login.vue')
+        },
+        {
+            path: '/error',
+            name: 'error',
+            component: () => import('@/views/uikit/Error.vue')
         }
     ],
     scrollBehavior(to, from, savedPosition) {

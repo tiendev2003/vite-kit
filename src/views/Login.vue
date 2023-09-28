@@ -22,7 +22,10 @@ export default {
             validator: false,
             errorMessage: '',
             errorName: '',
-            userLoggedIn: false
+            userLoggedIn: false,
+            callback: (response) => {
+                console.log(response);
+            }
         };
     },
     methods: {
@@ -176,6 +179,19 @@ export default {
                 this.email_error = 'Email không hợp lệ';
                 return false;
             }
+        },
+        async onGoogleClick() {
+            window.open(`https://api-kit.onrender.com/api/v1/auth/google/callback`, '_self');
+            // await axios({
+            //     method: 'get',
+            //     url: 'https://api-kit.onrender.com/api/v1/auth/google/callback'
+            // })
+            //     .then((res) => {
+            //         console.log(res);
+            //     })
+            //     .catch((err) => {
+            //         console.log(err);
+            //     });
         }
     },
     watch: {
@@ -231,10 +247,10 @@ export default {
                 </a>
             </div>
             <div class="media-options">
-                <a href="#" class="field google">
+                <button style="cursor: pointer" class="field google" @click="onGoogleClick()">
                     <img src="@/assets/google.png" alt="" class="google-img" />
                     <span>Login with Google</span>
-                </a>
+                </button>
             </div>
         </div>
         <!-- Signup Form -->
