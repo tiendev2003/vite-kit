@@ -108,6 +108,24 @@ const router = createRouter({
             path: '/error',
             name: 'error',
             component: () => import('@/views/uikit/Error.vue')
+        },
+        {
+            path: '/:pathMatch(.*)*',
+            name: 'not-found',
+            component: () => import('@/views/uikit/NotFound.vue')
+        },
+        {
+            path: '/auth/verifyEmail/email=:email/token=:token',
+            name: 'verifyEmail',
+            component: () => import('@/views/uikit/VerifylEmail.vue'),
+            props: true
+        },
+        {
+            path: '/login/success',
+
+            name: 'login-success',
+            component: () => import('@/views/LoginSuccess.vue'),
+            props: true
         }
     ],
     scrollBehavior(to, from, savedPosition) {

@@ -1,6 +1,8 @@
 <script>
 import 'boxicons';
 import { mapState } from 'vuex';
+import 'primeicons/primeicons.css';
+
 export default {
     data() {
         return {
@@ -20,7 +22,6 @@ export default {
             this.isMenuOpen = !this.isMenuOpen;
         },
         handleScroll() {
-            this.isMenuOpen = false;
             if (window.scrollY > 0) {
                 this.isSticky = true;
             } else {
@@ -66,7 +67,7 @@ export default {
             </router-link>
         </div>
         <div id="menu-icon-client">
-            <box-icon id="tien" :name="isMenuOpen ? 'x' : 'menu'" @click="toggleMenu" :class="{ 'bx-x ': isMenuOpen }"></box-icon>
+            <i :class="isMenuOpen ? 'pi pi-times' : 'pi pi-bars'" @click="toggleMenu" style="font-size: 1.5rem; color: black"></i>
         </div>
     </div>
 </template>

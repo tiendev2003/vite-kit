@@ -180,19 +180,10 @@ export default {
                 return false;
             }
         },
-        async onGoogleClick() {
-            console.log(123)
-            window.open(`http://localhost:5000/api/v1/auth/google/callback`, '_self');
-            // await axios({
-            //     method: 'get',
-            //     url: 'https://api-kit.onrender.com/api/v1/auth/google/callback'
-            // })
-            //     .then((res) => {
-            //         console.log(res);
-            //     })
-            //     .catch((err) => {
-            //         console.log(err);
-            //     });
+        onGoogleClick() {
+            const googleLoginUrl = 'https://api-kit.onrender.com';
+
+            window.open(googleLoginUrl + '/api/v1/auth/google', '_self');
         }
     },
     watch: {
@@ -304,7 +295,7 @@ export default {
             </div>
             <div class="media-options">
                 <a href="#" class="field google">
-                    <img src="@/assets/google.png" alt="" class="google-img" />
+                    <img src="@/assets/google.png" alt="" class="google-img" @click="onGoogleClick()" />
                     <span>Login with Google</span>
                 </a>
             </div>

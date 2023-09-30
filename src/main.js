@@ -1,6 +1,8 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
+import 'primeicons/primeicons.css';
+import Vue3Lottie from 'vue3-lottie';
 
 import PrimeVue from 'primevue/config';
 import AutoComplete from 'primevue/autocomplete';
@@ -124,6 +126,7 @@ app.use(DialogService);
 app.use(ConfirmationService);
 app.use(store);
 app.use(ToastPlugin);
+app.use(Vue3Lottie);
 app.directive('tooltip', Tooltip);
 app.directive('badge', BadgeDirective);
 app.directive('ripple', Ripple);
