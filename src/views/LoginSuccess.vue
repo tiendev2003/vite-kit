@@ -16,8 +16,8 @@ export default {
     methods: {
         ...mapActions(['set_user'])
     },
-    async created() {
-        await axios({
+    created() {
+        axios({
             method: 'get',
             url: 'http://localhost:5000/api/v1/auth/login/success',
             withCredentials: true

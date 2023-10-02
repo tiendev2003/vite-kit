@@ -181,7 +181,7 @@ export default {
             }
         },
         onGoogleClick() {
-            const googleLoginUrl = 'https://api-kit.onrender.com';
+            const googleLoginUrl = 'http://localhost:5000';
 
             window.open(googleLoginUrl + '/api/v1/auth/google', '_self');
         }

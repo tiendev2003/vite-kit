@@ -561,10 +561,10 @@ section {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
     .inner-part .img {
-        width: 180px;
-        height: 180px;
+        width: 120px;
+        height: 140px;
         object-fit: cover;
     }
 }

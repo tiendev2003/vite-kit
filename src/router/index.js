@@ -23,45 +23,45 @@ const router = createRouter({
                     component: () => import('@/views/Dashboard.vue')
                 },
                 {
-                    path: '/admin/uikit/formlayout',
+                    path: '/admin/information',
                     name: 'formlayout',
-                    component: () => import('@/views/uikit/FormLayout.vue')
+                    component: () => import('@/views/uikit/InformationUser.vue')
                 },
                 {
-                    path: '/admin/uikit/input',
+                    path: '/admin/input',
                     name: 'input',
                     component: () => import('@/views/uikit/Input.vue')
                 },
 
                 {
-                    path: '/admin/uikit/table',
+                    path: '/admin/table',
                     name: 'table',
                     component: () => import('@/views/uikit/Table.vue')
                 },
                 {
-                    path: '/admin/uikit/list',
+                    path: '/admin/list',
                     name: 'list',
                     component: () => import('@/views/uikit/List.vue')
                 },
 
                 {
-                    path: '/admin/uikit/media',
+                    path: '/admin/media',
                     name: 'media',
                     component: () => import('@/views/uikit/Media.vue')
                 },
 
                 {
-                    path: '/admin/uikit/file',
+                    path: '/admin/file',
                     name: 'file',
                     component: () => import('@/views/uikit/File.vue')
                 },
                 {
-                    path: '/admin/uikit/project',
+                    path: '/admin/project',
                     name: 'project',
                     component: () => import('@/views/uikit/Project.vue')
                 },
                 {
-                    path: '/admin/uikit/calendar',
+                    path: '/admin/calendar',
                     name: 'calendar',
                     component: () => import('@/views/uikit/Calendar.vue')
                 }
@@ -102,7 +102,17 @@ const router = createRouter({
         {
             path: '/login',
             name: 'login',
-            component: () => import('@/views/Login.vue')
+            component: () => import('@/views/Login.vue'),
+            beforeEnter: (to, from, next) => {
+                if (to.path === '/login') {
+                    next();
+                } else if (store.state.user) {
+                    // Người dùng đã đăng nhập, cho phép chuyển hướng đến địa chỉ mới
+                    next('/admin/');
+                } else {
+                    next('/login');
+                }
+            }
         },
         {
             path: '/error',

@@ -453,17 +453,17 @@ export default {
                             <ul class="sci">
                                 <li>
                                     <router-link to="/">
-                                        <box-icon type="logo" style="fill: white" name="facebook-circle"></box-icon>
+                                        <i class="pi pi-facebook" style="font-size: 1.5rem"></i>
                                     </router-link>
                                 </li>
                                 <li>
                                     <router-link to="/">
-                                        <box-icon name="github" style="fill: white" type="logo"></box-icon>
+                                        <i class="pi pi-github" style="font-size: 1.5rem"></i>
                                     </router-link>
                                 </li>
                                 <li>
                                     <router-link to="/">
-                                        <box-icon type="logo" style="fill: white" name="linkedin"></box-icon>
+                                        <i class="pi pi-linkedin" style="font-size: 1.5rem"></i>
                                     </router-link>
                                 </li>
                             </ul>
@@ -492,17 +492,17 @@ export default {
                             <ul class="sci">
                                 <li>
                                     <router-link to="/">
-                                        <box-icon type="logo" style="fill: white" name="facebook-circle"></box-icon>
+                                        <i class="pi pi-facebook" style="font-size: 1.5rem"></i>
                                     </router-link>
                                 </li>
                                 <li>
                                     <router-link to="/">
-                                        <box-icon name="github" style="fill: white" type="logo"></box-icon>
+                                        <i class="pi pi-github" style="font-size: 1.5rem"></i>
                                     </router-link>
                                 </li>
                                 <li>
                                     <router-link to="/">
-                                        <box-icon type="logo" style="fill: white" name="linkedin"></box-icon>
+                                        <i class="pi pi-linkedin" style="font-size: 1.5rem"></i>
                                     </router-link>
                                 </li>
                             </ul>

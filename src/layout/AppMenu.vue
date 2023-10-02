@@ -11,15 +11,15 @@ const model = ref([
     {
         label: 'UI Components',
         items: [
-            { label: 'Cập nhật thông tin', icon: 'pi pi-fw pi-id-card', to: '/admin/uikit/formlayout' },
+            { label: 'Cập nhật thông tin', icon: 'pi pi-fw pi-id-card', to: '/admin/information' },
 
-            { label: 'Danh sách sinh viên', icon: 'pi pi-fw pi-table', to: '/admin/uikit/table' },
+            { label: 'Danh sách sinh viên', icon: 'pi pi-fw pi-table', to: '/admin/table' },
 
-            { label: 'Media', icon: 'pi pi-fw pi-image', to: '/admin/uikit/media' },
+            { label: 'Media', icon: 'pi pi-fw pi-image', to: '/admin/media' },
 
-            { label: 'File', icon: 'pi pi-fw pi-file', to: '/admin/uikit/file' },
+            { label: 'File', icon: 'pi pi-fw pi-file', to: '/admin/file' },
 
-            { label: 'Thời khoá biểu', icon: 'pi pi-fw pi-calendar', to: '/admin/uikit/calendar' },
+            { label: 'Thời khoá biểu', icon: 'pi pi-fw pi-calendar', to: '/admin/calendar' },
             {
                 label: 'Project',
                 icon: 'pi pi-fw pi-database',
@@ -27,12 +27,12 @@ const model = ref([
                     {
                         label: 'Cập nhật',
                         icon: 'pi pi-fw pi-pencil',
-                        to: '/admin/uikit/project'
+                        to: '/admin/project'
                     },
                     {
                         label: 'Xem',
                         icon: 'pi pi-fw pi-list',
-                        to: '/admin/uikit/list'
+                        to: '/admin/list'
                     }
                 ]
             }

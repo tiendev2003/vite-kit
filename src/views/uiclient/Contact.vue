@@ -12,6 +12,7 @@ export default {};
                         width="400"
                         height="300"
                         loading="lazy"
+                        style="border-radius: 20px"
                     ></iframe>
                 </figure>
             </div>
@@ -65,7 +66,7 @@ textarea {
     width: 50%;
     border-radius: 16px;
     margin-bottom: 30px;
-    border: 1px solid #333;
+
     overflow: hidden;
 }
 
