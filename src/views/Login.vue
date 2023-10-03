@@ -72,7 +72,7 @@ export default {
             this.userCreated = true;
             await axios({
                 method: 'post',
-                url: 'https://api-kit.onrender.com/api/v1/auth/register/',
+                url: 'https://combative-frock-lion.cyclic.cloud/api/v1/auth/register/',
                 data: {
                     name: this.name,
                     email: this.email,
@@ -115,7 +115,7 @@ export default {
             console.log(data);
             await axios({
                 method: 'post',
-                url: 'https://api-kit.onrender.com/api/v1/auth/login',
+                url: 'https://combative-frock-lion.cyclic.cloud/api/v1/auth/login',
                 data: {
                     email: this.email,
                     password: this.password
@@ -181,7 +181,7 @@ export default {
             }
         },
         onGoogleClick() {
-            const googleLoginUrl = 'http://localhost:5000';
+            const googleLoginUrl = 'https://combative-frock-lion.cyclic.cloud';
 
             window.open(googleLoginUrl + '/api/v1/auth/google', '_self');
         }

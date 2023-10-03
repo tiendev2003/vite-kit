@@ -19,7 +19,7 @@ export default {
     created() {
         axios({
             method: 'get',
-            url: 'http://localhost:5000/api/v1/auth/login/success',
+            url: 'https://combative-frock-lion.cyclic.cloud/api/v1/auth/login/success',
             withCredentials: true
         })
             .then((res) => {
